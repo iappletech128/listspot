@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-// Notes!
-
 @interface Assignment : NSObject <NSCoding> {
 @private
     NSString *name;
