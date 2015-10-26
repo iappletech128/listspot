@@ -19,7 +19,7 @@
 		129578D51B84D92900886096 /* DownloadsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 129578D41B84D92900886096 /* DownloadsController.m */; };
 		12C9F65C1B89100100106454 /* ListSpot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 12C9F65B1B89100100106454 /* ListSpot.icns */; };
 		12D189541B8B925600844891 /* Doc.icns in Resources */ = {isa = PBXBuildFile; fileRef = 12D189531B8B925600844891 /* Doc.icns */; };
-		12D5A1431BC1FB8F00A60555 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D5A1421BC1FB8F00A60555 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		12D5A1431BC1FB8F00A60555 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D5A1421BC1FB8F00A60555 /* Images.xcassets */; };
 		1D14BE9014381AD200B6E8F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D14BE8F14381AD200B6E8F5 /* Cocoa.framework */; };
 		1D14BE9A14381AD200B6E8F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D14BE9814381AD200B6E8F5 /* InfoPlist.strings */; };
 		1D14BE9C14381AD200B6E8F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D14BE9B14381AD200B6E8F5 /* main.m */; };
