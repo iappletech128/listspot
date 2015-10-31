@@ -26,20 +26,23 @@
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
                             <tabViewItem label="Basics" identifier="1" id="qY6-pn-4l7">
-                                <view key="view" id="lWI-td-hgt">
+                                <view key="view" ambiguous="YES" id="lWI-td-hgt">
                                     <rect key="frame" x="10" y="33" width="434" height="208"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ri-km-KWj">
-                                            <rect key="frame" x="15" y="78" width="404" height="127"/>
+                                            <rect key="frame" x="15" y="18" width="404" height="187"/>
                                             <animations/>
                                             <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" id="XC8-bL-UZd">
                                                 <font key="font" metaFont="system"/>
-                                                <string key="title">Q: How do I create an entry?
+                                                <mutableString key="title">Q: How do I create an entry?
 A: Click the big plus button on the button of the window or use ⌘↩︎.
 
 Q: How do I delete an entry?
-A: Click the minus button at the bottom of the window or use ⌘⌫.</string>
+A: Click the minus button at the bottom of the window or use ⌘⌫.
+
+Q: What do some of the other buttons do?
+A: We could go on and explain everything, but to know what every single button does hover over one of them for a description.</mutableString>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
@@ -49,7 +52,7 @@ A: Click the minus button at the bottom of the window or use ⌘⌫.</string>
                                 </view>
                             </tabViewItem>
                             <tabViewItem label="Questions" identifier="2" id="AwR-Ow-BWr">
-                                <view key="view" ambiguous="YES" id="BSy-c2-nWU">
+                                <view key="view" id="BSy-c2-nWU">
                                     <rect key="frame" x="10" y="33" width="434" height="208"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
