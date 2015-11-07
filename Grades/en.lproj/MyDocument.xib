@@ -217,7 +217,7 @@ CA
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="3va-rM-R0H">
-                                <rect key="frame" x="0.0" y="8" width="467" height="341"/>
+                                <rect key="frame" x="0.0" y="7" width="467" height="341"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <clipView key="contentView" id="ZsJ-cn-acl">
                                     <rect key="frame" x="1" y="23" width="465" height="317"/>
