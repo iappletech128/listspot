@@ -7,12 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CoolView.h"
 
 @interface MyDocument : NSDocument {
 @private
     NSMutableArray *assignments;
 }
-
 @property (copy) NSMutableArray *assignments;
-
+@property (assign) IBOutlet CoolView *coolView;
 @end

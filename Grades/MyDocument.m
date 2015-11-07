@@ -63,5 +63,8 @@
     [assignments release];
     [super dealloc];
 }
+- (NSPrintOperation *)printOperationWithSettings:(NSDictionary<NSString *,id> *)printSettings error:(NSError * _Nullable *)outError {
+    return [NSPrintOperation printOperationWithView:self.coolView];
+}
 
 @end

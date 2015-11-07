@@ -17,6 +17,7 @@
 		1213D4D01B87952400DE8A99 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1213D4CF1B87952400DE8A99 /* Preferences.xib */; };
 		1213D4D31B87953000DE8A99 /* PrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1213D4D21B87953000DE8A99 /* PrefController.m */; };
 		129578D51B84D92900886096 /* DownloadsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 129578D41B84D92900886096 /* DownloadsController.m */; };
+		12A93CF41BEEB71000AB3FC1 /* CoolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A93CF31BEEB71000AB3FC1 /* CoolView.m */; };
 		12C9F65C1B89100100106454 /* ListSpot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 12C9F65B1B89100100106454 /* ListSpot.icns */; };
 		12D189541B8B925600844891 /* Doc.icns in Resources */ = {isa = PBXBuildFile; fileRef = 12D189531B8B925600844891 /* Doc.icns */; };
 		12D5A1431BC1FB8F00A60555 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D5A1421BC1FB8F00A60555 /* Images.xcassets */; };
@@ -50,6 +51,8 @@
 		1213D4D21B87953000DE8A99 /* PrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefController.m; sourceTree = "<group>"; };
 		129578D31B84D92900886096 /* DownloadsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadsController.h; sourceTree = "<group>"; };
 		129578D41B84D92900886096 /* DownloadsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadsController.m; sourceTree = "<group>"; };
+		12A93CF21BEEB71000AB3FC1 /* CoolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolView.h; sourceTree = "<group>"; };
+		12A93CF31BEEB71000AB3FC1 /* CoolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolView.m; sourceTree = "<group>"; };
 		12C9F65B1B89100100106454 /* ListSpot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ListSpot.icns; sourceTree = "<group>"; };
 		12D189531B8B925600844891 /* Doc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Doc.icns; sourceTree = "<group>"; };
 		12D5A1421BC1FB8F00A60555 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -123,6 +126,15 @@
 			name = Preferences;
 			sourceTree = "<group>";
 		};
+		12A93CF51BEEB71400AB3FC1 /* Printing */ = {
+			isa = PBXGroup;
+			children = (
+				12A93CF21BEEB71000AB3FC1 /* CoolView.h */,
+				12A93CF31BEEB71000AB3FC1 /* CoolView.m */,
+			);
+			name = Printing;
+			sourceTree = "<group>";
+		};
 		1D14BE8014381AD100B6E8F5 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +181,7 @@
 				1D14BEA214381AD200B6E8F5 /* MyDocument.m */,
 				1D14BEA414381AD200B6E8F5 /* MyDocument.xib */,
 				1D14BEA714381AD200B6E8F5 /* MainMenu.xib */,
+				12A93CF51BEEB71400AB3FC1 /* Printing */,
 				1213D4C51B87942800DE8A99 /* ReleaseNotes */,
 				1213D4AA1B878F6600DE8A99 /* Help */,
 				1213D4CE1B87951600DE8A99 /* Preferences */,
@@ -291,6 +304,7 @@
 				1D14BEA314381AD200B6E8F5 /* MyDocument.m in Sources */,
 				1213D4CD1B87951400DE8A99 /* PrefDelegate.m in Sources */,
 				1213D4D31B87953000DE8A99 /* PrefController.m in Sources */,
+				12A93CF41BEEB71000AB3FC1 /* CoolView.m in Sources */,
 				1213D4CA1B87944200DE8A99 /* ReleaseController.m in Sources */,
 				129578D51B84D92900886096 /* DownloadsController.m in Sources */,
 				1213D4B51B878FB800DE8A99 /* HelpDelegate.m in Sources */,
