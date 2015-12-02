@@ -81,6 +81,10 @@
     NSURL *emailShare = [NSURL URLWithString:@"mailto:?subject=Check%20out%20this%20App&body=I've%20been%20using%20this%20app%20for%20my%20Mac.%20It%20is%20amazing!%20Check%20it%20out%20here%3A%20http%3A%2F%2Fiap-software.webnode.com/listspot/."];
     [[NSWorkspace sharedWorkspace] openURL:emailShare];
 }
+-(IBAction)feedback:(id)sender {
+    NSURL *myURL = [NSURL URLWithString:@"https://docs.google.com/forms/d/1BrUXM95B7t84O7B3xGIV4xTIJf-IGgjiKH8Ta1_wQuI/viewform"];
+    [[NSWorkspace sharedWorkspace] openURL:myURL];
+}
 
 @end
 

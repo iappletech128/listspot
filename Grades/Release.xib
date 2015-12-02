@@ -15,21 +15,20 @@
         <window title="Release Notes" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="518" y="813" width="480" height="148"/>
+            <rect key="contentRect" x="518" y="813" width="480" height="191"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="148"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="191"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ylk-Ze-Jla">
-                        <rect key="frame" x="18" y="20" width="444" height="108"/>
+                        <rect key="frame" x="18" y="20" width="444" height="151"/>
                         <animations/>
                         <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" id="Uyt-DF-UVo">
                             <font key="font" metaFont="system"/>
-                            <string key="title">Version 1.0.1
-- We've added printing compatibility!
-- Added labels to the major navigation buttons on the bottom for less confusion.
-- Major Help window improvements</string>
+                            <string key="title">Version 1.0.2
+- Got a suggestion? We're listening! You can now provide feedback under the Help menu.
+- Fixes scaling issues created with previous version.</string>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -37,7 +36,7 @@
                 </subviews>
                 <animations/>
             </view>
-            <point key="canvasLocation" x="413" y="379"/>
+            <point key="canvasLocation" x="413" y="400.5"/>
         </window>
     </objects>
 </document>
